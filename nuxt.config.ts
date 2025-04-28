@@ -20,6 +20,10 @@ export default defineNuxtConfig({
       }
     },
 
+    image: {
+      domains: ['https://dummyjson.com'],
+    },
+
   devtools: { enabled: true },
 
   modules: [
